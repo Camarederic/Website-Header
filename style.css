@@ -323,3 +323,80 @@ html {
   color: #444;
 }
 
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 50%;
+  }
+
+  .bg-heading {
+    font-size: 16rem;
+    top: 25%;
+  }
+
+  .food-desc {
+    width: 60rem;
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 45%;
+  }
+  .navigation a {
+    margin: 0 1rem;
+  }
+  .bg-heading {
+    font-size: 14rem;
+    top: 28%;
+  }
+
+  .main-heading {
+    font-size: 7rem;
+    left: 25%;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 40%;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .bg-heading {
+    font-size: 10rem;
+    top: 33%;
+  }
+
+  .main-heading {
+    font-size: 6rem;
+    left: 27%;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 35%;
+  }
+
+  .sidebar {
+    width: 100%;
+    right: -100%;
+  }
+  .main-heading {
+    font-size: 5rem;
+    left: 29%;
+  }
+
+  .food-desc {
+    width: 45rem;
+  }
+}
